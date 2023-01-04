@@ -1,0 +1,11 @@
+title: Macroball
+remote_theme: pmarsceill/just-the-docs
+aux_links:
+  "Buy now":
+    - "//dailyclack.com"
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
