@@ -66,15 +66,39 @@ Lastly, I cleaned up the code a bit, and split the functionality out into "modes
 
 // code snippet, video
 
-## Iterations
+## Plate and cutouts
 
-### Plate and cutouts
+We opted to go for an integrated plate. Putting a separate plate into the build would've incrased the price for a small run, as more parts add more setup costs. The unit's plate design, being small and u-shaped, also some of the benefits of a separate plate, being quite rigid and not able to add much in terms of flex.
+
+Going with an integrated plate, CNC'd out of aluminium, gave us the option to go with quite a hefty plate, 4mm thick. This was nice as it gave a bit more density to such a small unit. I followed the specifications from [Cherry](https://www.cherrymx.de/en/dev.html) on their MX switches, along with some advice from the community, to get the switch and stablizer cutouts a tight fit.
+
+// screen shots, photoes
 
 ### OLEDs
 
+Back in 2021, lots of OLED usage had moved on from backlighting and underglow, to bands and highlights.
+
+// give example like gmmmk pro
+
+So we decided to put our spin on it: a glowing ring around the trackball. While adding a few few complications, and added a new part of CNC'd polycarbonate, it added a bit of fun and flair.
+
+// inital pcb lit up photo
+
+// glow pic
+
+// final pic
+
 ## Mounting
 
-## USB cutout?
+Mounting the trackball was also a little tricky to get right. In the spirit of mechanical keyboards and their customisation, we decided to give a couple of different options.
+
+### Static
+
+// few comments/pics
+
+### Dynamic
+
+// few comments/pics
 
 ## Builds
 
