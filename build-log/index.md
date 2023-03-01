@@ -20,7 +20,8 @@ I'd just finished up my writeup of my [Oddball keyboard](https://atulloh.github.
 
 With that in mind, we ended up effetcively aiming to create a premium style macropad with a trackball.
 
-todo: image/sketch
+![Concept 1]({{site.baseurl}}/assets/images/sketch-1.jpg)
+![Concept 2]({{site.baseurl}}/assets/images/sketch-2.jpg)
 
 ## Protype week
 
