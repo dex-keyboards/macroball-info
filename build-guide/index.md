@@ -3,6 +3,9 @@ title: Build Guide
 nav_order: 200
 ---
 
-# Oddball v1
+# Coming soon 😅
 
-![Pretty v1]({{site.baseurl}}/assets/images/gallery-v1-small-5.jpg)
+<figure>
+  <img src="{{site.baseurl}}/assets/images/soldering.jpg" alt="Soldering"/>
+  <figcaption>It's a madhouse</figcaption>
+</figure>

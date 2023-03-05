@@ -5,9 +5,12 @@ nav_order: 100
 
 # Macroball Keyboard
 
+![Blue]({{site.baseurl}}/assets/images/DEX Blue_03.jpg)
+
 A little macropad with a lot of heft, and a giant trackball!
 
-[Buy it now on ???](){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
+[Buy it soon](){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled } 
+[Discord]({{ site.baseurl }}/gallery){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
 
 ## Features
 - Giant trackball
@@ -26,9 +29,11 @@ A little macropad with a lot of heft, and a giant trackball!
 - USB-C
 - CNCd aluminium  
 
-## Prototypes
+## Links
 
-![Blue]({{site.baseurl}}/assets/images/DEX Blue_03.jpg)
-![Back]({{site.baseurl}}/assets/images/DEX Black_03.jpg)
+[Discord]({{ site.baseurl }}/gallery){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
+[Gallery]({{ site.baseurl }}/gallery){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
+[Build Log]({{ site.baseurl }}/gallery){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
+[Build Guide]({{ site.baseurl }}/gallery){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
+[About Us]({{ site.baseurl }}/about-us){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
-If you have any questions, [feel free to reach out]({{ site.baseurl }}/about).

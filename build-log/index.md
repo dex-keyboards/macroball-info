@@ -144,6 +144,11 @@ So we decided to put our spin on it: a glowing ring around the trackball. While 
   <figcaption>A larger version of the daughterboard (right), now housing LEDs along with the trackball sensor</figcaption>
 </figure>
 
+<figure>
+  <img src="{{site.baseurl}}/assets/images/led-rainbow.jpg" alt="LED rainbow"/>
+  <figcaption>In action</figcaption>
+</figure>
+
 <video src="{{site.baseurl}}/assets/videos/glow-spin.mp4" controls preload></video>
 
 <figure>
