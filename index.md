@@ -6,6 +6,7 @@ nav_order: 100
 # Macroball Keyboard
 
 ![Blue]({{site.baseurl}}/assets/images/DEX Blue_03.jpg)
+![Black]({{site.baseurl}}/assets/images/DEX Black_03.jpg)
 
 A little macropad with a lot of heft, and a giant trackball!
 
