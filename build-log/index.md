@@ -21,7 +21,6 @@ I'd just finished up my writeup of my [Oddball keyboard](https://atulloh.github.
 With that in mind, we ended up effetcively aiming to create a premium style macropad with a trackball.
 
 ![Concept 1]({{site.baseurl}}/assets/images/sketch-1.jpg)
-![Concept 2]({{site.baseurl}}/assets/images/sketch-2.jpg)
 
 ## Protype week
 
@@ -56,14 +55,17 @@ At some point (2021 is a blur), my 3D printer had a few health issues, so I turn
 
 <figure>
   <img src="{{site.baseurl}}/assets/images/oled-1.jpg" alt="Rendering with QMK"/>
-  <figcaption>Rendering with QMK</figcaption>
+  <figcaption>Rendering text with QMK</figcaption>
 </figure>
 
 I started by trying to get a few simple words to display- it worked fine. Next I tried to get some images to display. This was a bit more fiddly, as the bytes of each image had to be in a certain format. I spent a while trying to optimise the way the pixels were stored and rendered.
 
 To speed up the process, I made a little emulator for QMKs draw calls, so I could just test/see how my images and animations looked on my PC, without having to worry about compiling and flashing the firmware to the device.
 
-// TODO emulator pic
+<figure>
+  <img src="{{site.baseurl}}/assets/images/oled-emulator.png" alt="OLED emulator"/>
+  <figcaption>Simple emulator to speed up iteration, and saving me having to flash controller every time</figcaption>
+</figure>
 
 I also wanted to have some sort of animation- maybe a game- for fun, so I did a little work on the sprite rendering:
 - Allowed sprites to have an "alpha" (see through) channel
@@ -95,19 +97,36 @@ We opted to go for an integrated plate. Putting a separate plate into the build 
 
 Going with an integrated plate, CNC'd out of aluminium, gave us the option to go with quite a hefty plate, 4mm thick. This was nice as it gave a bit more density to such a small unit. I followed the specifications from [Cherry](https://www.cherrymx.de/en/dev.html) on their MX switches, along with some advice from the community, to get the switch and stablizer cutouts a tight fit.
 
-// screen shots, photoes
+<figure>
+  <img src="{{site.baseurl}}/assets/images/plate-scad.png" alt="Plate SCAD"/>
+  <figcaption>Plate in OpenSCAD</figcaption>
+</figure>
+
+<figure>
+  <img src="{{site.baseurl}}/assets/images/plate-scad-closeup.png" alt="Plate SCAD closeup"/>
+  <figcaption>Plate switch cutouts are quite detailed, to give the switches a tight fit</figcaption>
+</figure>
 
 ### OLEDs
 
 Back in 2021, lots of OLED usage had moved on from backlighting and underglow, to bands and highlights.
 
-// give example like gmmmk pro
+<figure>
+  <img src="{{site.baseurl}}/assets/images/highfinger-example.jpg" alt="Highfinger Example"/>
+  <figcaption>The highfinger as an example: containing a vertical, translucent stript for LEDs to shine through</figcaption>
+</figure>
 
 So we decided to put our spin on it: a glowing ring around the trackball. While adding a few few complications, and added a new part of CNC'd polycarbonate, it added a bit of fun and flair.
 
-// inital pcb lit up photo
+<figure>
+  <img src="{{site.baseurl}}/assets/images/daughterboard-2.jpg" alt="Proto glow open"/>
+  <figcaption>A larger version of the daughterboard, now housing LEDs along with the trackball sensor</figcaption>
+</figure>
 
-// glow pic
+<figure>
+  <img src="{{site.baseurl}}/assets/images/glow-1.jpg" alt="Proto glow"/>
+  <figcaption>An early prototype with </figcaption>
+</figure>
 
 // final pic
 
