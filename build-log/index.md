@@ -44,10 +44,7 @@ Initially we just sent for the daughterboard, as this was the novel twist on the
   <figcaption>3D draft print to check the feel</figcaption>
 </figure>
 
-<figure>
-  <video src="{{site.baseurl}}/assets/videos/daughterboard-in-action.mp4" controls preload></video>
-  <figcaption>Daughtboard prototype in action</figcaption>
-</figure>
+<video src="{{site.baseurl}}/assets/videos/daughterboard-in-action.mp4" controls preload></video>
 
 ## Firmware
 
@@ -80,16 +77,13 @@ All in all, this was probably overkill, especially as it would have just been si
   <figcaption>Sprites</figcaption>
 </figure>
 
-<figure>
-  <video src="{{site.baseurl}}/assets/videos/oled-animations.mp4" controls preload></video>
-  <figcaption>Animations</figcaption>
-</figure>
+<video src="{{site.baseurl}}/assets/videos/oled-animations.mp4" controls preload></video>
 
 I then added a few things that were _actually_ useful: a volume control, a CPI (trackball sensitivity) control, a trackball scroll sensitivity control, and of course, a minigame.
 
 Lastly, I cleaned up the code a bit, and split the functionality out into "modes". These are just little files and functions that say what the OLED and keyboard should do (e.g. "volume mode"). They can be switched (currently cycled with the encoder click), to jump to the next mode. I added a little transtition animation to make it look nice.
 
-// TOOD: compress and show functionality
+<video src="{{site.baseurl}}/assets/videos/oled-functionality.mp4" controls preload></video>
 
 ## Plate and cutouts
 
@@ -132,22 +126,63 @@ So we decided to put our spin on it: a glowing ring around the trackball. While 
 
 ## Mounting
 
-Mounting the trackball was also a little tricky to get right. In the spirit of mechanical keyboards and their customisation, we decided to give a couple of different options.
+Mounting the trackball was also a little tricky to get right. In the spirit of mechanical keyboards and their customisation, we decided to give a couple of different options. First, a static option, where three, smooth (e.g. silicon nitride, POM, etc), small balls are fixed to the main case with bolts, against which the trackball slides past. The second option was to insert ball transfer units (BTUs), which a small balls that can spin freely atop several bearing, allowing the trackball to spin for quite a while, at the cost of noise.
 
-### Static
+<figure>
+  <img src="{{site.baseurl}}/assets/images/mounting-2.png" alt="Mounting SCAD"/>
+  <figcaption>6 cutouts: 3 for static balls, 3 for the BTUs </figcaption>
+</figure>
 
-// few comments/pics
+<figure>
+  <img src="{{site.baseurl}}/assets/images/mounting-1.jpg" alt="Mounting Static"/>
+  <figcaption>Prototyping attaching silicon nitride balls</figcaption>
+</figure>
 
-### Dynamic
-
-// few comments/pics
+<figure>
+  <img src="{{site.baseurl}}/assets/images/mounting-3.jpg" alt="Mounting Dynamic"/>
+  <figcaption>Prototyping attaching threaded BTUs</figcaption>
+</figure>
 
 ## Builds
 
-### Glow
+<figure>
+  <img src="{{site.baseurl}}/assets/images/build-1.jpg" alt="Early build"/>
+  <figcaption>Early build printed with the PLA I had available. The translucent bottom piece actually looked kind of cool.</figcaption>
+</figure>
 
-### blue
+<figure>
+  <img src="{{site.baseurl}}/assets/images/blue-build-1.jpg" alt="Blue build"/>
+  <figcaption>Putting together a "nicer" prototype build</figcaption>
+</figure>
 
-### final
+<figure>
+  <img src="{{site.baseurl}}/assets/images/blue-build-1.jpg" alt="Blue build 1"/>
+  <figcaption>A "nicer" 3DP build: paiting</figcaption>
+</figure>
 
+<figure>
+  <img src="{{site.baseurl}}/assets/images/blue-build-2.jpg" alt="Blue build 2"/>
+  <figcaption>A "nicer" 3DP build: putting silicon into the diffusion ring cutout</figcaption>
+</figure>
+
+<figure>
+  <img src="{{site.baseurl}}/assets/images/blue-build-3.jpg" alt="Blue build 3"/>
+  <figcaption>A "nicer" 3DP build: finished product</figcaption>
+</figure>
+
+## Manufacturing
+
+This was the first time I'd designed something for CNC, so it was a bit of a learning curve. For most of the 3D work I'd used OpenSCAD, which is great for being really explicit about measurements, as everything is in code, but it doesn't export to STEP, which is a pretty useful file format for CNC machines. OpenSCAD also has a pretty limited feature set around describing bevels, chamfers, etc; if you want to pursue these, you have to write some pretty hairy code.
+
+I ended up using [FreeCAD](https://www.freecad.org/) as a stepping stone. FreeCAD has a module that allows that allows import of SCAD files, which I could then layer on some nice transfers to smooth out the hard corners, and then export to STEP, which I could then in turn send to the manufacturer.
+
+The final prototype came out pretty well. There are a few issues, that we'll need to tweak before a final production run.
+
+<figure>
+  <img src="{{site.baseurl}}/assets/images/schematic.jpg" alt="Schematic"/>
+  <figcaption></figcaption>
+</figure>
+
+
+// Gallerty
 
