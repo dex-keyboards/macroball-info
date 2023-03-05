@@ -25,9 +25,12 @@ With that in mind, we ended up effetcively aiming to create a premium style macr
 
 ## Protype week
 
-A week later, my family met David and his partner at the beach. He brought his Planck, and I brought some 3D prints, and we tried to not get sand in anything. I tried out his latest build; it felt good. It was two years ago, but I can still remember the feel of IFK BoH hammering down on aluminium at 32°C/90°F. He tried the 3D prints of the macropad. They were rough, and somehow had got blood on them during assembly; but they also felt good. We decided to forge ahead.
+A week later, my family met David and his partner at the beach. He brought his [Planck](https://olkb.com/collections/planck), and I brought some 3D prints, and we tried to not get sand in anything. I tried out his latest build; it felt good. It was two years ago, but I can still remember the feel of IFK BoH hammering down on aluminium at 32°C/90°F. He tried the 3D prints of the macropad. They were rough, and somehow had got blood on them during assembly; but they also felt good. We decided to forge ahead.
 
-todo: first draft photoes
+<figure>
+  <img src="{{site.baseurl}}/assets/images/proof-of-concept.jpg" alt="Proof of concept"/>
+  <figcaption>3D draft print to check the feel</figcaption>
+</figure>
 
 ## First prototype build
 
@@ -37,19 +40,30 @@ We settled on a pair of PCBs. The smaller board (daugherboard) would connect to 
 
 Initially we just sent for the daughterboard, as this was the novel twist on the keyboard design, and we wanted to check it worked. After hooking it up to a Pro Micro, we could seen mouse movement: it was alive!
 
-todo: pro micro video
+<figure>
+  <img src="{{site.baseurl}}/assets/images/daughterboard-1.jpg" alt="Daughterboard prototype"/>
+  <figcaption>3D draft print to check the feel</figcaption>
+</figure>
+
+<figure>
+  <video src="{{site.baseurl}}/assets/videos/daughterboard-in-action.mp4" controls preload></video>
+  <figcaption>Daughtboard prototype in action</figcaption>
+</figure>
 
 ## Firmware
 
 At some point (2021 is a blur), my 3D printer had a few health issues, so I turned to the firmware. I leveraged the open source [QMK](https://qmk.fm/) firmware/code, which is easy to modify and extend.
 
-// todo: words pic?
+<figure>
+  <img src="{{site.baseurl}}/assets/images/oled-1.jpg" alt="Rendering with QMK"/>
+  <figcaption>Rendering with QMK</figcaption>
+</figure>
 
 I started by trying to get a few simple words to display- it worked fine. Next I tried to get some images to display. This was a bit more fiddly, as the bytes of each image had to be in a certain format. I spent a while trying to optimise the way the pixels were stored and rendered.
 
 To speed up the process, I made a little emulator for QMKs draw calls, so I could just test/see how my images and animations looked on my PC, without having to worry about compiling and flashing the firmware to the device.
 
-// emulator pic
+// TODO emulator pic
 
 I also wanted to have some sort of animation- maybe a game- for fun, so I did a little work on the sprite rendering:
 - Allowed sprites to have an "alpha" (see through) channel
@@ -59,13 +73,21 @@ I also wanted to have some sort of animation- maybe a game- for fun, so I did a 
 
 All in all, this was probably overkill, especially as it would have just been simpler to get a better processor (ATMega32s aren't super powerful) and do things more simply, but the constraints were fun, and it worked in the end.
 
-// some pics/video
+<figure>
+  <img src="{{site.baseurl}}/assets/images/oled-sprites.jpg" alt="Sprites"/>
+  <figcaption>Sprites</figcaption>
+</figure>
+
+<figure>
+  <video src="{{site.baseurl}}/assets/videos/oled-animations.mp4" controls preload></video>
+  <figcaption>Animations</figcaption>
+</figure>
 
 I then added a few things that were _actually_ useful: a volume control, a CPI (trackball sensitivity) control, a trackball scroll sensitivity control, and of course, a minigame.
 
 Lastly, I cleaned up the code a bit, and split the functionality out into "modes". These are just little files and functions that say what the OLED and keyboard should do (e.g. "volume mode"). They can be switched (currently cycled with the encoder click), to jump to the next mode. I added a little transtition animation to make it look nice.
 
-// code snippet, video
+// TOOD: compress and show functionality
 
 ## Plate and cutouts
 
