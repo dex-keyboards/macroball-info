@@ -166,23 +166,6 @@ So we decided to put our spin on it: a glowing ring around the trackball. While 
   <figcaption>The final version diffused the LEDs through a wider, PC ring looked much better</figcaption>
 </figure>
 
-## Builds
-
-<figure>
-  <img src="{{site.baseurl}}/assets/images/build-1.jpg" alt="Early build"/>
-  <figcaption>Early build printed with the PLA I had available. The translucent bottom piece actually looked kind of cool.</figcaption>
-</figure>
-
-<figure>
-  <img src="{{site.baseurl}}/assets/images/blue-build-1.jpg" alt="Blue build"/>
-  <figcaption>Putting together a "nicer" prototype build</figcaption>
-</figure>
-
-<figure>
-  <img src="{{site.baseurl}}/assets/images/blue-build-1.jpg" alt="Blue build 1"/>
-  <figcaption>A "nicer" 3DP build: paiting</figcaption>
-</figure>
-
 ## Manufacturing
 
 This was the first time I'd designed something for CNC, so it was a bit of a learning curve. For most of the 3D work I'd used OpenSCAD, which is great for being really explicit about measurements, as everything is in code, but it doesn't export to STEP, which is a pretty useful file format for CNC machines. OpenSCAD also has a pretty limited feature set around describing bevels, chamfers, etc; if you want to pursue these, you have to write some pretty hairy code.
