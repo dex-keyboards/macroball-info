@@ -47,7 +47,7 @@ Initially we just sent for the daughterboard, as this was the novel twist on the
   <figcaption>Daughterboard v1 with USB C and a PMW3360 sensor</figcaption>
 </figure>
 
-<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-daughterboard-mov.mp4" controls preload></video>
+<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-daughterboard-mov.mp4" width="736" height="1308" controls preload></video>
 
 ## Firmware
 
@@ -80,13 +80,13 @@ All in all, this was probably overkill, especially as it would have just been si
   <figcaption>Sprites</figcaption>
 </figure>
 
-<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-oled-1-mov.mp4" controls preload></video>
+<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-oled-1-mov.mp4" width="736" height="414" controls preload></video>
 
 I then added a few things that were _actually_ useful: a volume control, a CPI (trackball sensitivity) control, a trackball scroll sensitivity control, and of course, a minigame.
 
 Lastly, I cleaned up the code a bit, and split the functionality out into "modes". These are just little files and functions that say what the OLED and keyboard should do (e.g. "volume mode"). They can be switched (currently cycled with the encoder click), to jump to the next mode. I added a little transtition animation to make it look nice.
 
-<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-oled-2-mov.mp4" controls preload></video>
+<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-oled-2-mov.mp4" width="736" height="414" controls preload></video>
 
 ## Plate and cutouts
 
@@ -149,7 +149,7 @@ So we decided to put our spin on it: a glowing ring around the trackball. While 
   <figcaption>In action</figcaption>
 </figure>
 
-<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-led-mov.mp4" controls preload></video>
+<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-led-mov.mp4" width="736" height="414" controls preload></video>
 
 <figure>
   <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-blue-1.png" alt="Blue build 2"/>
