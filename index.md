@@ -3,7 +3,9 @@ title: Welcome
 nav_order: 100
 ---
 
-# Macroball by <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/logo.png" alt="DEX" width="90px"/>
+# Macroball
+
+## By <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/logo.png" alt="DEX" width="80px"/>
 
 ![Blue](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-03.png)
 ![Black](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-03.png)
