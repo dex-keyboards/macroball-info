@@ -3,9 +3,7 @@ title: Welcome
 nav_order: 100
 ---
 
-# Macroball by Dex Keyboards
-
-By <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/logo.png" alt="DEX"/>
+# Macroball by <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/logo.png" alt="DEX" width="90px"/>
 
 ![Blue](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-03.png)
 ![Black](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-03.png)

@@ -25,7 +25,7 @@ I'd just finished up my writeup of my [Oddball keyboard](https://atulloh.github.
   <figcaption>First ideas for a macropad with a giant trackball</figcaption>
 </figure>
 
-## Protype week
+## Prototype week
 
 A week later, my family met David and his partner at the beach. He brought his [Planck](https://olkb.com/collections/planck), and I brought some 3D prints, and we tried to not get sand in anything. I tried out his latest build; it felt good. It was two years ago, but I can still remember the feel of IFK BoH hammering down on aluminium at 32°C/90°F. He tried the 3D prints of the macropad. They were rough, and somehow had got blood on them during assembly; but they also felt good. We decided to forge ahead.
 
