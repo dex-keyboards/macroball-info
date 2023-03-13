@@ -10,7 +10,7 @@ nav_order: 100
 
 A little macropad with a lot of heft, and a giant trackball!
 
-[Buy it soon](#){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled } 
+[Buy ~~now~~ soon](#){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled } 
 [Discord](https://discord.gg/rVUMvee43f){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## Features
@@ -37,4 +37,3 @@ A little macropad with a lot of heft, and a giant trackball!
 [Build Log]({{ site.baseurl }}/build-log){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
 [Build Guide]({{ site.baseurl }}/build-guide){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
 [About Us]({{ site.baseurl }}/about-us){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-
