@@ -5,7 +5,7 @@ nav_order: 300
 
 # Build Log
 
-![]({{site.baseurl}}/assets/images/DEX Blue_06.jpg)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-06.png)
 
 ## Motivation
 
@@ -21,7 +21,7 @@ I'd just finished up my writeup of my [Oddball keyboard](https://atulloh.github.
 **TL;DR: we were aiming to create a premium style macropad with a trackball.**
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/sketch-1.jpg" alt="Concept"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-sketch.png" alt="Concept"/>
   <figcaption>First ideas for a macropad with a giant trackball</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ I'd just finished up my writeup of my [Oddball keyboard](https://atulloh.github.
 A week later, my family met David and his partner at the beach. He brought his [Planck](https://olkb.com/collections/planck), and I brought some 3D prints, and we tried to not get sand in anything. I tried out his latest build; it felt good. It was two years ago, but I can still remember the feel of IFK BoH hammering down on aluminium at 32°C/90°F. He tried the 3D prints of the macropad. They were rough, and somehow had got blood on them during assembly; but they also felt good. We decided to forge ahead.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/proof-of-concept.jpg" alt="Proof of concept"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-concept.png" alt="Proof of concept"/>
   <figcaption>3D draft print to check the layout and feel</figcaption>
 </figure>
 
@@ -43,18 +43,18 @@ We settled on a pair of PCBs. The smaller board (daugherboard) would connect to 
 Initially we just sent for the daughterboard, as this was the novel twist on the keyboard design, and we wanted to check it worked. After hooking it up to a Pro Micro, we could seen mouse cursor movement: it was alive!
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/daughterboard-1.jpg" alt="Daughterboard prototype"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-daughterboard-1.png" alt="Daughterboard prototype"/>
   <figcaption>Daughterboard v1 with USB C and a PMW3360 sensor</figcaption>
 </figure>
 
-<video src="{{site.baseurl}}/assets/videos/daughterboard-in-action.mp4" controls preload></video>
+<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-daughterboard-mov.mp4" controls preload></video>
 
 ## Firmware
 
 At some point (2021 is a blur), my 3D printer had a few health issues, so I decided to work on the firmware for a bit. I leveraged the open source [QMK](https://qmk.fm/) firmware/code, which is easy to modify and extend.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/oled-1.jpg" alt="Rendering with QMK"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-oled-1.png" alt="Rendering with QMK"/>
   <figcaption>Step 1: Rendering text with QMK</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ I started by trying to get a few simple words to display- it worked fine. Next I
 To speed up the process, I made a little emulator for QMKs draw calls, so I could just test/see how my images and animations looked on my PC, without having to worry about compiling and flashing the firmware to the device.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/oled-emulator.png" alt="OLED emulator"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-oled-2.png" alt="OLED emulator"/>
   <figcaption>Simple QMK OLED emulator to speed up iteration, and saving me having to flash controller every time</figcaption>
 </figure>
 
@@ -76,17 +76,17 @@ I also wanted to have some sort of animation- maybe a game- for fun, so I did a 
 All in all, this was probably overkill, especially as it would have just been simpler to get a better processor (ATMega32s aren't super powerful) and do things more simply, but the constraints were fun, and it worked in the end.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/oled-sprites.jpg" alt="Sprites"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-oled-3.png" alt="Sprites"/>
   <figcaption>Sprites</figcaption>
 </figure>
 
-<video src="{{site.baseurl}}/assets/videos/oled-animations.mp4" controls preload></video>
+<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-oled-1-mov.mp4" controls preload></video>
 
 I then added a few things that were _actually_ useful: a volume control, a CPI (trackball sensitivity) control, a trackball scroll sensitivity control, and of course, a minigame.
 
 Lastly, I cleaned up the code a bit, and split the functionality out into "modes". These are just little files and functions that say what the OLED and keyboard should do (e.g. "volume mode"). They can be switched (currently cycled with the encoder click), to jump to the next mode. I added a little transtition animation to make it look nice.
 
-<video src="{{site.baseurl}}/assets/videos/oled-functionality.mp4" controls preload></video>
+<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-oled-2-mov.mp4" controls preload></video>
 
 ## Plate and cutouts
 
@@ -95,17 +95,17 @@ We opted to go for an integrated plate. Putting a separate plate into the build 
 Going with an integrated plate, CNC'd out of aluminium, gave us the option to go with quite a hefty plate, 4mm thick. This was nice as it gave a bit more density to such a small unit. I followed the specifications from [Cherry](https://www.cherrymx.de/en/dev.html) on their MX switches, along with some advice from the community, to get the switch and stablizer cutouts a tight fit.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/plate-scad.png" alt="Plate SCAD"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-plate-1.png" alt="Plate SCAD"/>
   <figcaption>Plate in OpenSCAD</figcaption>
 </figure>
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/plate-scad-closeup.png" alt="Plate SCAD closeup"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-plate-2.png" alt="Plate SCAD closeup"/>
   <figcaption>Plate switch cutouts are quite detailed, to give the switches a tight fit</figcaption>
 </figure>
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/cutouts-cnc.jpg" alt="Proto cutouts"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-plate-3.png" alt="Proto cutouts"/>
   <figcaption>The final switch cutouts were complex, but came out rather nicely</figcaption>
 </figure>
 
@@ -114,17 +114,17 @@ Going with an integrated plate, CNC'd out of aluminium, gave us the option to go
 Mounting the trackball was also a little tricky to get right. In the spirit of mechanical keyboards and their customisation, we decided to give a couple of different options. First, a static option, where three, smooth (e.g. silicon nitride, POM, etc), small balls are fixed to the main case with bolts, against which the trackball slides past. The second option was to insert threaded ball transfer units (BTUs), which are small balls that can spin freely atop several bearing, allowing the trackball to spin for quite a while, at the cost of noise.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/mounting-1.jpg" alt="Mounting Static"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-mounting-1.png" alt="Mounting Static"/>
   <figcaption>6 cutouts: 3 for static balls, 3 for the BTUs </figcaption>
 </figure>
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/mounting-2.png" alt="Mounting SCAD"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-mounting-2.png" alt="Mounting SCAD"/>
   <figcaption>Prototyping attaching silicon nitride balls</figcaption>
 </figure>
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/mounting-3.jpg" alt="Mounting Dynamic"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-mounting-3.png" alt="Mounting Dynamic"/>
   <figcaption>Prototyping attaching threaded BTUs</figcaption>
 </figure>
 
@@ -133,36 +133,36 @@ Mounting the trackball was also a little tricky to get right. In the spirit of m
 Back in 2021, lots of LED usage had moved on from backlighting and underglow, to bands and highlights.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/hifinger-example.jpg" alt="Highfinger Example"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-hifinger.png" alt="Highfinger Example"/>
   <figcaption>The highfinger as an example: containing a vertical, translucent stript for LEDs to shine through</figcaption>
 </figure>
 
 So we decided to put our spin on it: a glowing ring around the trackball. While adding a few complications, and added a new part, a ring of CNC'd polycarbonate, it also added a bit of fun and flair.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/daughterboard-2.jpg" alt="Proto glow open"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-daughterboard-2.png" alt="Proto glow open"/>
   <figcaption>A larger version of the daughterboard (right), now housing LEDs along with the trackball sensor</figcaption>
 </figure>
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/led-rainbow.jpg" alt="LED rainbow"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-led-1.png" alt="LED rainbow"/>
   <figcaption>In action</figcaption>
 </figure>
 
-<video src="{{site.baseurl}}/assets/videos/glow-spin.mp4" controls preload></video>
+<video src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-led-mov.mp4" controls preload></video>
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/blue-build-2.jpg" alt="Blue build 2"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-blue-1.png" alt="Blue build 2"/>
   <figcaption>In one build I tried using silicone for the diffuser, which was quite messy</figcaption>
 </figure>
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/blue-build-3.jpg" alt="Blue build 3"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-blue-2.png" alt="Blue build 3"/>
   <figcaption>The silicone ring was a nice finish, but didn't diffuse the light too well</figcaption>
 </figure>
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/led-final.jpg" alt="LED ring"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-led-2.png" alt="LED ring"/>
   <figcaption>The final version diffused the LEDs through a wider, PC ring looked much better</figcaption>
 </figure>
 
@@ -173,24 +173,24 @@ This was the first time I'd designed something for CNC, so it was a bit of a lea
 I ended up using [FreeCAD](https://www.freecad.org/) as a stepping stone. FreeCAD has a module that allows that allows import of SCAD files, which I could then layer on some nice transfers to smooth out the hard corners, and then export to STEP, which I could then in turn send to the manufacturer.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/schematic.png" alt="Schematic"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-manu-1.png" alt="Schematic"/>
   <figcaption>Creating files for manufacturing was new to me</figcaption>
 </figure>
 
 The final prototype came out pretty well. There are a few issues (I had to dremel the PC ring a little to fit 😬) that we'll need to tweak before a final production run. But for a first go, I was quite relieved that generally it all fit together and worked.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/cutouts-mounted.jpg" alt="Proto mounting"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-manu-2.png" alt="Proto mounting"/>
   <figcaption>The BTUs screwed in very snugly</figcaption>
 </figure>
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/usb-cutout.jpg" alt="USB cutout"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-manu-3.png" alt="USB cutout"/>
   <figcaption>The USB cutout and port recession was perfect</figcaption>
 </figure>
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/proto-pre-photo.jpg" alt="Protos together"/>
+  <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-manu-4.png" alt="Protos together"/>
   <figcaption>A happy pair</figcaption>
 </figure>
 

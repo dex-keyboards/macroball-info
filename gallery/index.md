@@ -7,24 +7,24 @@ nav_order: 400
 
 # Blue Prototype
 
-![]({{site.baseurl}}/assets/images/DEX Blue_01.jpg)
-![]({{site.baseurl}}/assets/images/DEX Blue_02.jpg)
-![]({{site.baseurl}}/assets/images/DEX Blue_03.jpg)
-![]({{site.baseurl}}/assets/images/DEX Blue_04.jpg)
-![]({{site.baseurl}}/assets/images/DEX Blue_05.jpg)
-![]({{site.baseurl}}/assets/images/DEX Blue_06.jpg)
-![]({{site.baseurl}}/assets/images/DEX Blue_07.jpg)
-![]({{site.baseurl}}/assets/images/DEX Blue_08.jpg)
-![]({{site.baseurl}}/assets/images/DEX Blue_09.jpg)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-01.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-02.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-03.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-04.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-05.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-06.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-07.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-08.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-09.png)
 
-# Red Prototype
+# Black Prototype
 
-![]({{site.baseurl}}/assets/images/DEX Black_01.jpg)
-![]({{site.baseurl}}/assets/images/DEX Black_02.jpg)
-![]({{site.baseurl}}/assets/images/DEX Black_03.jpg)
-![]({{site.baseurl}}/assets/images/DEX Black_04.jpg)
-![]({{site.baseurl}}/assets/images/DEX Black_05.jpg)
-![]({{site.baseurl}}/assets/images/DEX Black_06.jpg)
-![]({{site.baseurl}}/assets/images/DEX Black_07.jpg)
-![]({{site.baseurl}}/assets/images/DEX Black_08.jpg)
-![]({{site.baseurl}}/assets/images/DEX Black_09.jpg)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-01.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-02.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-03.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-04.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-05.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-06.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-07.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-08.png)
+![](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-09.png)

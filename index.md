@@ -5,13 +5,13 @@ nav_order: 100
 
 # Macroball Keyboard
 
-![Blue]({{site.baseurl}}/assets/images/DEX Blue_03.jpg)
-![Black]({{site.baseurl}}/assets/images/DEX Black_03.jpg)
+![Blue](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-03.png)
+![Black](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-03.png)
 
 A little macropad with a lot of heft, and a giant trackball!
 
-[Buy it soon](){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled } 
-[Discord]({{ site.baseurl }}/gallery){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
+[Buy it soon](#){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled } 
+[Discord](https://discord.gg/rVUMvee43f){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## Features
 - Giant trackball
@@ -32,7 +32,7 @@ A little macropad with a lot of heft, and a giant trackball!
 
 ## Links
 
-[Discord](https://discord.gg/rVUMvee43f){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
+[Discord](https://discord.gg/rVUMvee43f){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
 [Gallery]({{ site.baseurl }}/gallery){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
 [Build Log]({{ site.baseurl }}/build-log){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
 [Build Guide]({{ site.baseurl }}/build-guide){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
