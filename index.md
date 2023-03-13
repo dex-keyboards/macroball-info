@@ -10,9 +10,6 @@ nav_order: 100
 
 A little macropad with a lot of heft, and a giant trackball!
 
-[Buy ~~now~~ soon](#){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled } 
-[Discord](https://discord.gg/rVUMvee43f){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-
 ## Features
 - Giant trackball
   - 2" (50.8mm) diameter
@@ -32,6 +29,7 @@ A little macropad with a lot of heft, and a giant trackball!
 
 ## Links
 
+[Buy ~~now~~ soon](#){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled } 
 [Discord](https://discord.gg/rVUMvee43f){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Gallery]({{ site.baseurl }}/gallery){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
 [Build Log]({{ site.baseurl }}/build-log){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
