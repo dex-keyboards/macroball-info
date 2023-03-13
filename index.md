@@ -32,9 +32,9 @@ A little macropad with a lot of heft, and a giant trackball!
 
 ## Links
 
-[Discord]({{ site.baseurl }}/gallery){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
+[Discord](https://discord.gg/rVUMvee43f){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
 [Gallery]({{ site.baseurl }}/gallery){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
-[Build Log]({{ site.baseurl }}/gallery){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
-[Build Guide]({{ site.baseurl }}/gallery){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
+[Build Log]({{ site.baseurl }}/build-log){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
+[Build Guide]({{ site.baseurl }}/build-guide){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
 [About Us]({{ site.baseurl }}/about-us){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
