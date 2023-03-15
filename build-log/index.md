@@ -90,7 +90,7 @@ Lastly, I cleaned up the code a bit, and split the functionality out into "modes
 
 ## Plate and cutouts
 
-We opted to go for an integrated plate. Putting a separate plate into the build would've increased the price for a small run, as more parts add more setup costs. The unit's plate design, being small and u-shaped, *doesn't* gain the usual benefits plate, being quite rigid and not able to add much in terms of flex.
+We opted to go for an integrated plate. Putting a separate plate into the build would've increased the price for a small run, as more parts add more setup costs. The unit's plate design, being small and u-shaped, *doesn't* gain the usual benefits of a separate plate, being quite rigid and not able to add much in terms of flex.
 
 Going with an integrated plate, CNC'd out of aluminium, gave us the option to go with quite a hefty plate, 4mm thick. This was nice as it gave a bit more density to such a small unit. I followed the specifications from [Cherry](https://www.cherrymx.de/en/dev.html) on their MX switches, along with some advice from the community, to get the switch and stablizer cutouts a tight fit.
 
