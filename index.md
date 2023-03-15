@@ -11,8 +11,8 @@ nav_order: 100
 
 A little macropad with a lot of heft, and a giant trackball!
 
-<a href="https://discord.gg/rVUMvee43f" target="_blank" class=".btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2">Join our Discord ↗</a>
-<a href="https://forms.gle/C9Lr4JAAwGBj2WsL8" target="_blank" class=".btn .btn-blue .fs-5 .mb-4 .mb-md-0 .mr-2">Interest Check ↗</a>
+<a href="https://discord.gg/rVUMvee43f" target="_blank" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2">Join our Discord ↗</a>
+<a href="https://forms.gle/C9Lr4JAAwGBj2WsL8" target="_blank" class="btn btn-blue fs-5 mb-4 mb-md-0 mr-2">Interest Check ↗</a>
 
 ## Features
 - Giant trackball
