@@ -6,8 +6,10 @@ nav_order: 100
 # Macroball by <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/logo.png" alt="DEX" width="75px"/>
 
 ![Blue](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-03.png)
-![Black](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-03.png) 
+![Black](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-03.png)
+
 [More photos ➡]({{ site.baseurl }}/gallery)
+
 [See the build log ➡]({{ site.baseurl }}/build-log)
 
 A little macropad with a lot of heft, and a giant trackball!
