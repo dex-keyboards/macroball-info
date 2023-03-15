@@ -1,6 +1,6 @@
 ---
 title: Gallery
-nav_order: 400
+nav_order: 200
 ---
 
 # Gallery
