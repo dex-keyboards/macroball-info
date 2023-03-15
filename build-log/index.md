@@ -194,4 +194,4 @@ The final prototype came out pretty well. There are a few issues (I had to dreme
   <figcaption>A happy pair</figcaption>
 </figure>
 
-Well likely try to get a group buy together at some point, but if you are intested in seeing more photos of the prototypes, jump over to the [gallery]({{site.baseurl}}/gallery).
+If you are intested in seeing more photos of the prototypes, jump over to the [gallery]({{site.baseurl}}/gallery). Or if you'd like one for yourself, please fill out our [interest check](https://forms.gle/C9Lr4JAAwGBj2WsL8) and we'll see if we can make it a reality.
