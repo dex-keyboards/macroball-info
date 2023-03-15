@@ -1,14 +1,18 @@
 ---
-title: Welcome
+title: Overview
 nav_order: 100
 ---
 
 # Macroball by <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/logo.png" alt="DEX" width="75px"/>
 
 ![Blue](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-blue-03.png)
-![Black](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-03.png)
+![Black](https://dex-github-macroball.s3.us-west-1.amazonaws.com/macroball-black-03.png) 
+[More photos ➡]({{ site.baseurl }}/gallery)
 
 A little macropad with a lot of heft, and a giant trackball!
+
+<a href="https://discord.gg/rVUMvee43f" target="_blank" class=".btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2">Join our Discord ↗</a>
+<a href="https://forms.gle/C9Lr4JAAwGBj2WsL8" target="_blank" class=".btn .btn-blue .fs-5 .mb-4 .mb-md-0 .mr-2">Interest Check ↗</a>
 
 ## Features
 - Giant trackball
@@ -25,13 +29,4 @@ A little macropad with a lot of heft, and a giant trackball!
 - OLED display
 - LED illumniated ring
 - USB-C
-- CNCd aluminium  
-
-## Links
-
-[Buy ~~now~~ soon](#){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled } 
-[Discord](https://discord.gg/rVUMvee43f){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Gallery]({{ site.baseurl }}/gallery){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
-[Build Log]({{ site.baseurl }}/build-log){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
-[Build Guide]({{ site.baseurl }}/build-guide){: .btn .btn-disabled .fs-5 .mb-4 .mb-md-0 .mr-2 .disabled }
-[About Us]({{ site.baseurl }}/about-us){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+- CNCd aluminium
