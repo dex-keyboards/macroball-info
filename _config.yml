@@ -1,10 +1,10 @@
 title: Macroball
 remote_theme: pmarsceill/just-the-docs
- aux_links:
-   "Join Discord":
-     - "//discord.gg/rVUMvee43f"
-   "Interest Check":
-     - "//forms.gle/C9Lr4JAAwGBj2WsL8"
+aux_links:
+  "Join Discord":
+    - "//discord.gg/rVUMvee43f"
+  "Interest Check":
+    - "//forms.gle/C9Lr4JAAwGBj2WsL8"
 
 defaults:
   - scope:
