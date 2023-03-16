@@ -163,7 +163,7 @@ So we decided to put our spin on it: a glowing ring around the trackball. While 
 
 <figure>
   <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-led-2.png" alt="LED ring"/>
-  <figcaption>The final version diffused the LEDs through a wider, PC ring looked much better</figcaption>
+  <figcaption>The final version diffused the LEDs through a wider, PC ring, and looked much better</figcaption>
 </figure>
 
 ## Manufacturing
