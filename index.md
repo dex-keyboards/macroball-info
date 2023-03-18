@@ -24,6 +24,7 @@ A little macropad with a lot of heft, and a giant trackball!
   - Option of static ball mounting or dynamic BTU mounting
 - Hotswap MX switch support
 - 11-13 programmable key switches
+  - Split or 2U in each bottom corner
 - Rotary encoder, default functionaliy including:
   - Volume control
   - CPI (trackball sensitity) control
@@ -33,3 +34,5 @@ A little macropad with a lot of heft, and a giant trackball!
 - LED illumniated ring
 - USB-C
 - CNCd aluminium
+
+![Layout](https://dex-github-macroball.s3.us-west-1.amazonaws.com/keyboard-layout.png)
