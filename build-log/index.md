@@ -125,7 +125,7 @@ Mounting the trackball was also a little tricky to get right. In the spirit of m
 
 <figure>
   <img src="https://dex-github-macroball.s3.us-west-1.amazonaws.com/log-mounting-3.png" alt="Mounting Dynamic"/>
-  <figcaption>Prototyping attaching threaded BTUs</figcaption>
+  <figcaption>Prototyping attaching static balls</figcaption>
 </figure>
 
 ### LEDs
